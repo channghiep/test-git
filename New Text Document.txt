@@ -1,0 +1,28 @@
+<script>
+let arr=[];
+var total=0;
+for (let i=3;i<100; i+=3){
+arr.push(i);
+
+total= i+ total;
+}
+document.writeln(arr);
+document.writeln("</br>" + total);
+
+let evenarr= arr.filter(filterfunc);
+ function filterfunc(value){
+ return value % 2==0;}
+document.writeln("</br>" +evenarr);
+
+
+let eventotal=0;
+for(let i=0; i<=(evenarr.length-1);i+=1)
+{
+eventotal= evenarr[i] + eventotal;
+
+}
+
+document.writeln("</br>" + eventotal);
+
+
+</script>
