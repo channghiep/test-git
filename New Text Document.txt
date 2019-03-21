@@ -24,5 +24,6 @@ eventotal= evenarr[i] + eventotal;
 
 document.writeln("</br>" + eventotal);
 console.log('change');
+console.log('change2');
 
 </script>
