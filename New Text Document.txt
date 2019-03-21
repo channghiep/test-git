@@ -23,6 +23,6 @@ eventotal= evenarr[i] + eventotal;
 }
 
 document.writeln("</br>" + eventotal);
-
+console.log('change');
 
 </script>
